@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+
+}
+.left{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 50%;
+    text-transform: capitalize;
+    flex: 1;
+
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom:80px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner h2{
+    margin-bottom: 30px;
+}
+#pass{
+    margin-top: 15px;
+}
+#sign{
+    margin-top: 10px;
+    background-color: rgb(216, 100, 58);
+    height: 25px;
+    border: 0.2px solid lightgray;
+  
+}
+#name1{
+    background-color: transparent;
+    width: 350px; /* Adjust the width as needed */
+    height: 25px;
+    border: 0.5px solid lightgray;
+  
+
+}
+#password{
+    background: transparent;
+    width: 350px; /* Adjust the width as needed */
+    height: 25px;
+    border: 0.3px solid lightgray;
+  
+}
+
+.forgotcase{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.forgotcase p a{
+    text-decoration: none;
+    color: white;
+
+}
+.or{
+    text-align: center;
+    display: grid;
+   margin-bottom: 10px;
+    
+}
+
+#newaccountcase{
+    background-color: transparent;
+    width: 250px;
+    color: white;
+    border: 0.3px solid lightgray;
+    width: 350px; /* Adjust the width as needed */
+    height: 25px;
+    
+}
+.copyright{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(225, 108, 65, 0.9);
+}
+.right{
+    flex: 1;
+    background-image: url(rocco-stoppoloni-B7BnSfy0Lws-unsplash.jpg);
+    background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  
+}
+h5{
+    text-shadow: 1px 2px black;
+}
+#ending{
+
+    background: transparent;
+    width: 350px; /* Adjust the width as needed */
+    height: 25px;
+    border: 0.3px solid   white;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    margin-top: 29px;
+
+}
